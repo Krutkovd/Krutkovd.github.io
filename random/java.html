@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=2.0">
+  <title>Document</title>
+  <style>
+   *{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .div{
+      border: 2px dashed black;
+      width: 200px;
+      margin: 10px;
+      margin-left: 10%;
+      text-align: center;
+      background: linear-gradient(blue, pink);
+    }
+    h1{
+      
+      margin-left: 9.5%;
+      background: linear-gradient(purple , red,green,orange);
+      width:16.7%
+    }
+
+    .result{
+      text-align: center;
+      font-weight: bold;
+    }
+    .button{
+      background:red;
+    }
+    div{
+      text-align: right;
+      margin-top: -25%;
+    }
+    .img{
+      text-align: center;
+      margin-top: -43%;}
+    
+  </style>
+</head>
+<body>
+  <h1>Рандомайзер</h1>
+  <div class="div">
+    <h5>Однo числo = 5 грн</h5>
+    <form name ="randomaizer">
+      <label for="min">Минималочка:</label>
+      <input type="number" name="min" min="1" value="1">
+      <br><br>
+      <label for="max">Максималочка:</label>
+      <input type="number" name="max" min="1" value="1000">
+      <br><br>
+      <label for="max">Повторений:</label>
+      <input type="number" name="count" min="1" value="1">
+      <br><br>
+      <input type="checkbox" name="uniq"> unique
+      <br><br>
+      <input class="button" type="button" value="Оплата" name="pay">
+      <br><br>
+      <input class="button" type="button" value="Генирация" name="Generate" onclick="Randomaizer(min, max);">
+
+    </form>
+    <p class="result"></p>
+  </div>
+  
+ 
+
+
+  <script src="script.js">  </script>
+</body>
+</html>

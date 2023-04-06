@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+	
+*{
+	font-family: Raleway;
+}
+.navbar-collapse{
+	justify-content: flex-end;
+}
+.header{
+	background: url(https://cdn-ua.volkswagen.at/media/Abstract_Image_B960_Component.Content_SimpleMedia_Image_Component/7261-89334_2839-content-978067-child-b960/dh-1282-c2426a/a1325583/1633005745/8c1a3743.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	height: 1000px;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgb(169, 169, 169, 0.35);
+}
+.description{
+	position: absolute;
+	top: 30%;
+	margin: auto;
+	padding: 4em;
+}
+.description h1, .description p{
+	color: white;
+	letter-spacing: 1em;
+	line-height: 2.5em;
+}
+.description h1{
+	font-size: 3em;
+}
+.description p{
+	font-size: 1.5em;
+}
+.info h1, .cars h1, .tradeIn h1{
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+.info_logo{
+	border-right: 2px solid black;
+}
+.info .col-12{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.info p{
+	font-size: 1.25em;
+}
+.info{
+	color: #343a40;
+	padding-bottom: 4em;
+}
+.cars{
+	background: #343a40;
+	color: white;
+	padding-bottom: 4em;
+
+}
+.cars .col-12{
+	padding: 2em;
+	background: #FFFAFA;
+	border: 5px solid #343a40;
+}
+.cars h4{
+	color: #343a40;
+	font-weight: bolder;
+}
+
+.tradeIn{
+	padding-bottom: 4em;
+}
+
+.products{
+	background: #343a40;
+	padding-bottom: 4em;
+}
+.products h1{
+	padding-top: 2em;
+	padding-bottom: 1em;
+	color: white;
+}
+.team img{
+	border: 5px solid #343a40;
+}
+.des, .contact{
+	background: #343a40;
+	color: white;
+	padding: 10px;
+}
+
+.team h1{
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+.team{
+	padding-bottom: 4em;
+}
+.des span{
+	color: lightgray;
+	font-size: 0.85;
+}
+
+.contact{
+	padding-bottom: 4em;
+	padding-top: 5em;
+}

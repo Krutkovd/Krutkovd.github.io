@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .Container{
+    border: 2px ridge black;
+    text-align: center;
+    padding: 10px;
+    width: 30%;      
+    background: linear-gradient(85deg, #fb63f9, #c2e534);
+        }
+        .Operation{
+            padding: 10px;
+        }
+        .Operation input{
+            padding: 5px;
+            margin: 10px;
+            font-weight: bold;
+            width: 12%;
+        }
+    </style>
+</head>
+<body>
+    <div class="Container">
+    <h1>Calculator</h1>
+    <div class="numbers">
+        <input type="number" placeholder="Number 1" name="number_1">
+        <input type="number" placeholder="Number 2" name="number_2">
+        
+    </div>
+    <div class="Operation">
+        <input type="button" name="sumBtn" value="+">
+        <input type="button" name="minusBtn" value="-">
+        <input type="button" name="mulBtn" value="*">
+        <input type="button" name="devBtn" value="/">
+        <input type="button" name="powBtn" value="^">
+    </div>
+    <div class="result">
+        <h4>Result:</h5>
+            <label name="calc_res"></label>
+    </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
